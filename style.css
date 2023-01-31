@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: #eee;
+    font-family: 'Roboto', sans-serif;
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 16px;
+    
+    font-size: 1.4rem;
+    background-color: #274671;
+}
+
+.my-logo {
+    margin-right: auto;
+}
+
+.nav-links a {
+    margin-left: 16px;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 42px 0;
+    background-color: rgb(7, 7, 65);
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.hero-left h1 {
+    margin-bottom: 60px;
+}
+
+.hero-contact {
+    margin-top: 60px;
+    width: 110px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: darkorange;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.hero img {
+    width: 500px;
+    height: auto;
+    border-radius: 4px;
+    margin-left: 32px;
+}
+
+.random-photos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 42px;
+    background-color: darkgray;
+}
+
+.photos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 32px;
+    gap: 32px;
+    text-align: center;
+}
+
+.content-photos img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid darkorange;
+    border-radius: 6px;
+    margin: 0;
+    padding: 0;
+}
+
+.quote {
+    height: 200px;
+    background-color: rgb(7, 7, 65);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0 150px;
+    font-size: 1.3rem;
+}
+
+.quote p:nth-of-type(1) {
+    font-style: italic;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin: 20px;
+}
+
+.contact-float {
+    background-color: #274671;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 400px;
+    height: 50px;
+    gap: 32px;
+}
+
+.contact-section-button {
+    width: 110px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: darkorange;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+footer {
+    background-color: #274671;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
